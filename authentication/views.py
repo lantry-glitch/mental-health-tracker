@@ -13,7 +13,7 @@ def login(request):
     if user is not None:
         if user.is_active:
             auth_login(request, user)
-            # Status login sukses.
+            # Status login sukses. tes
             return JsonResponse({
                 "username": user.username,
                 "status": True,
