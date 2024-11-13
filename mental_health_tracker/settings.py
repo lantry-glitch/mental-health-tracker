@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-uomnzlb8q08-%qzb%!%z^$6p6=t7$q849+o-o-8y%f*z)it$y_
 PRODUCTION = os.getenv("PRODUCTION", False)
 DEBUG = not PRODUCTION
 
-ALLOWED_HOSTS = ["localhost", "127.0.0.1","allan-kwek-mentalhealthtracker.pbp.cs.ui.ac.id"]
+ALLOWED_HOSTS = ["localhost", "127.0.0.1","allan-kwek-mentalhealthtracker2.pbp.cs.ui.ac.id"]
 
 
 # Application definition
@@ -141,4 +141,4 @@ else:
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CSRF_TRUSTED_ORIGINS = ["http://localhost","http://127.0.0.1","http://allan-kwek-mentalhealthtracker.pbp.cs.ui.ac.id/", "https://allan-kwek-mentalhealthtracker.pbp.cs.ui.ac.id/"]
+CSRF_TRUSTED_ORIGINS = ["http://localhost","http://127.0.0.1","http://allan-kwek-mentalhealthtracker2.pbp.cs.ui.ac.id/", "https://allan-kwek-mentalhealthtracker2.pbp.cs.ui.ac.id/"]
